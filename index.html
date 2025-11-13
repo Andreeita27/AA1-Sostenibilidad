@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>62 Rosas Tattoo</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    </head>
+    <body>
+        <div class="carrusel-fondo">
+            <div class="carrusel-fondo-contenedor">
+                <img src="images/EstudioImage4.webp" alt="Imagen 1">
+                <img src="images/EstudioImage5.webp" alt="Imagen 2">
+                <img src="images/EstudioImage6.webp" alt="Imagen 3">
+                <img src="images/EstudioImage1.webp" alt="Imagen 4">
+                <img src="images/EstudioImage2.webp" alt="Imagen 5">
+                <img src="images/EstudioImage3.webp" alt="Imagen 6">
+            </div>
+        </div>
+        <div id="nav">
+            <nav>
+                <ul>
+                    <li id="logoimagen"><a href="#logo"><img src= images/logoestudio.webp></a></li>
+                    <li id="conocenosnav"><a href="#nav1">CONÓCENOS</a></li>
+                    <li id="ubicacionnav"><a href="#nav2">UBICACIÓN</a></li>
+                    <li id="contactonav"><a href="#nav3">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="logo">
+            <h1>62 ROSAS TATTOO</h1>
+        </div>
+        <div id="estudio">
+            <h2>ESTUDIO DE TATUAJES</h2>
+        </div>
+        <div id="nav1">
+            <h2>CONÓCENOS</h2>
+        </div>
+        <ul>
+            <div id="seccion-david">
+                <div id="david">
+                    <li><h3>DAVID EL TITI</h3></li>
+                    <p>David se especializa en estilo neotradicional, anime y color. Gracias a su gran recorrido profesional,
+                    es capaz de adaptarse a los gustos y estilos de todos. Desde línea fina, geométricos y puntillismo,
+                    hasta grandes piezas neotradicionales, japonesas o de anime. Llevadle una idea y, ¡él se encarga de hacer magia!</p>
+                </div>
+                <div class="carrusel" id="carrusel-david">
+                    <div class="carrusel-david-contenedor">
+                        <img src="images/DavidImage.webp" alt="Foto Titi">
+                        <img src="images/DavidTattoo1.webp" alt="Tattoo 1">
+                        <img src="images/DavidTattoo2.webp" alt="Tattoo 2">
+                        <img src="images/DavidTattoo3.webp" alt="Tattoo 3">
+                        <img src="images/DavidTattoo4.webp" alt="Tattoo 4">
+                        <img src="images/DavidTattoo5.webp" alt="Tattoo 5">
+                        <img src="images/DavidTattoo6.webp" alt="Tattoo 6">
+                    </div>
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+                </div>
+            </div>
+            <div id="seccion-celia">
+                <div id="celia"> 
+                    <li><h3>CELIA KRIGARE</h3></li>
+                    <p>Celia es experta en estilo chicano y en realismo. Desde que empezó su carrera en el mundo del tatuaje,
+                    ha ido puliendo su técnica hasta conseguir posicionarse entre los mejores en estos estilos. Posee una gran
+                    creatividad y talento a la hora de componer sus trabajos, así que si la dejáis crear libremente, los resultados serán espectaculares.</p>
+                </div>
+                <div class="carrusel" id="carrusel-celia">
+                    <div class="carrusel-celia-contenedor">
+                        <img src="images/CeliaImage.webp" alt="Foto Krigare">
+                        <img src="images/CeliaTattoo1.webp" alt="Tattoo 1">
+                        <img src="images/CeliaTattoo2.webp" alt="Tattoo 2">
+                        <img src="images/CeliaTattoo3.webp" alt="Tattoo 3">
+                        <img src="images/CeliaTattoo4.webp" alt="Tattoo 4">
+                        <img src="images/CeliaTattoo5.webp" alt="Tattoo 5">
+                        <img src="images/CeliaTattoo6.webp" alt="Tattoo 6">
+                    </div>
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+            </div>
+            <div id="seccion-eriko">
+                <div id="eriko">
+                    <li><h3>ERIKO</h3></li>
+                    <p>Eriko es el encargado de realizar la eliminación de tatuajes y micropigmentaciones. Lleva años dedicándose
+                    a ello, por lo que cuenta con los conocimientos y con la última tecnología para lograr unos resultados impecables.</p>
+                </div>
+                <div class="carrusel"id=carrusel-eriko>
+                    <div class="carrusel-eriko-contenedor">
+                        <img src="images/ErikoImage.webp" alt="Foto Eriko">
+                        <img src="images/Eriko1.webp" alt="Laser 1">
+                        <img src="images/Eriko2.webp" alt="Laser 2">
+                        <img src="images/Eriko3.webp" alt="Laser 3">
+                        <img src="images/Eriko4.webp" alt="Laser 4">
+                        <img src="images/Eriko5.webp" alt="Laser 5">
+                        <img src="images/Eriko6.webp" alt="Laser 6">
+                    </div>
+                    <button class="prev">&lt;</button>
+                    <button class="next">&gt;</button>
+                </div>
+            </div>
+        </ul>
+        <div id="nav2">
+            <h2>UBICACIÓN</h2>
+        </div>
+        <p id="descripcionubicacion">El estudio se encuentra situado en Plaza Ortilla número 2, en Zaragoza, en el barrio del Actur.<br>
+        Está muy cerca del centro de la ciudad y muy bien comunicado con el transporte público.<br>
+        Las líneas de autobús más cercanas son el 23, el 42, el 50, el Ci1 y el Ci2, así como el tranvía.</p>
+        <div id= "map">
+        <script>
+            const map = L.map('map').setView([41.66, -0.88], 13);
+            const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png' , {
+                maxZoom: 25,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+            var marker = L.marker([41.6640348, -0.8850938]).addTo(map);
+        </script>
+        </div>
+        <div id="nav3">
+            <h2>CONTACTO</h2>
+        </div>
+            <form>
+                <label for="nombre">Nombre y apellidos:
+                </label>
+                  <input type="text" name="nombre" id="nombre"/>
+                <p>¿Eres mayor de edad?
+                    <input type="radio" name="edad" value="si"> Si
+                    <input type="radio" name="edad" value="no"> No</p>
+                <p>¿Con quién te gustaría contactar?: <select name="profesional">
+                  <option value="Selecciona">-----</option>
+                  <option value="David">David El Titi</option>
+                  <option value="Celia">Celia Krigare</option>
+                  <option value="Eriko">Eriko</option>
+                </select></p>
+                <label for="correo">Correo electrónico de contacto:
+                </label>
+                  <input type="text" name="correo" id="correo"/>
+                <p><label for="consulta">Escribe aquí tu consulta:</label></p>
+                    <p><textarea name="consulta" id="consulta"></textarea></p>
+                <p><input id="ofertas" type="checkbox" name="ofertas" value="ofertas"/> Deseo recibir información sobre novedades y ofertas.<br>
+                <input id="datos" type="checkbox" name="datos" value="datos"/> Declaro haber leído y aceptado la normativa sobre protección de datos.</p>
+                <input id="enviar" type="submit" value="Enviar"/>
+              </form>
+
+        <footer>
+            <div>
+                <a href="#nav1">Conócenos</a> | 
+                <a href="#nav2">Ubicación</a> | 
+                <a href="#nav3">Contacto</a>
+            </div>
+            <div>
+                <p>Síguenos en nuestras redes sociales:</p>
+                <p>
+                    <a href="https://www.instagram.com/62rosastattoo" target="_blank">
+                        <img src="images/logoinstagram.webp" alt="Instagram" class="icon"> 62rosastattoo
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.instagram.com/davideltiti" target="_blank">
+                        <img src="images/logoinstagram.webp" alt="Instagram" class="icon"> davideltiti
+                    </a> 
+                    <a href="https://www.instagram.com/krigare_tattoo" target="_blank">
+                        <img src="images/logoinstagram.webp" alt="Instagram" class="icon"> krigare_tattoo
+                    </a> 
+                    <a href="https://www.instagram.com/eliminartatuajeszaragoza" target="_blank">
+                        <img src="images/logoinstagram.webp" alt="Instagram" class="icon"> eliminartatuajeszaragoza
+                    </a>
+                </p>
+            </div>
+            <div>
+                <p>Horario: Martes a Viernes de 12:00 a 20:00 horas.</p>
+                <p>Teléfono: <a href="tel:976056054">976 056 054</a></p>
+            </div>
+            <p>Política de privacidad y cookies: Este sitio web utiliza cookies para mejorar la experiencia del usuario. Para más información, consulta nuestra <a href="#">política de privacidad</a>.</p>
+        </footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const carruseles = document.querySelectorAll('.carrusel');
+        
+                carruseles.forEach(carrusel => {
+                    const contenedor = carrusel.querySelector('div[class$="-contenedor"]');
+                    const prevButton = carrusel.querySelector('.prev');
+                    const nextButton = carrusel.querySelector('.next');
+                    const images = contenedor.querySelectorAll('img');
+                    const totalImages = images.length;
+        
+                    let currentIndex = 0;
+        
+                    function updateCarrusel() {
+                        const width = carrusel.clientWidth; // Ancho del carrusel
+                        contenedor.style.transform = `translateX(-${currentIndex * width}px)`;
+                    }
+        
+                    nextButton.addEventListener('click', () => {
+                        if (currentIndex < totalImages - 1) {
+                            currentIndex++;
+                        } else {
+                            currentIndex = 0; // Vuelve al inicio
+                        }
+                        updateCarrusel();
+                    });
+        
+                    prevButton.addEventListener('click', () => {
+                        if (currentIndex > 0) {
+                            currentIndex--;
+                        } else {
+                            currentIndex = totalImages - 1; // Vuelve al final
+                        }
+                        updateCarrusel();
+                    });
+        
+                    window.addEventListener('resize', updateCarrusel);
+                    updateCarrusel(); // Inicializa el carrusel
+                });
+            });
+        </script>                      
+    </body>
+</html>
